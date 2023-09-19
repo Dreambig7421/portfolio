@@ -1,0 +1,1046 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+section{
+    border-bottom:3px solid #cfe7e8;
+}
+
+a:hover{
+    color: rgb(3, 3, 142);
+    font-weight: bolder;
+    
+}
+
+
+
+
+.header {
+    background: linear-gradient(to bottom,rgb(188, 200, 214) ,rgb(188, 200, 214) ,rgb(210, 218, 227), rgb(228, 231, 236));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    background: linear-gradient(to right,#d4037a,#ef5296,rgb(255, 128, 0),#fdbf4d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-size: 35px;
+    font-weight: 700;
+    cursor: default;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 10px 70px;
+}
+
+.logo:hover {
+    background: linear-gradient(to left,#d4037a,#ef5296,rgb(255, 128, 0),#fdbf4d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 0.2s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ef5296;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    font-size: 19px;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #b34306;
+    transition: .5s;
+}
+
+img {
+    width: 500px;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 6% 0px;
+
+}
+
+h3 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    color:  #5c66aa;
+}
+
+.Designation{
+    font-size: 35px;
+    color: #d4037a;}
+
+h1{
+    font-size: 48px;
+    letter-spacing: 0.4px;
+    background: linear-gradient(to right,#d4037a,#ef5296,rgb(255, 128, 0),#fdbf4d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+ .Home-Content p{
+    color: rgb(63, 67, 67);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeImg {
+    width: 600px;
+}
+
+.social-media{
+    margin-top: 20px;
+}
+
+.social-media a{
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    width: 48px;
+    
+    height: 48px;
+    background-color:#F25B78;
+    color: white;
+
+}
+
+.social-media a:hover{
+    color:#D4037A;
+    background-color: white ;
+    transition: 0.3s;
+}
+
+.Btn {
+    background-color: #6b7cef;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 28px;
+    font-size: 21px;
+    padding: 10px 40px;
+  
+}
+
+.Btn:hover {
+    background-color: #374cce;
+    cursor: pointer;
+   }
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#about{
+    margin-left: 1%;
+}
+
+
+
+img {
+    width: 700px;
+}
+
+.services{
+  text-align: center;
+  margin-top: 60px;
+  height: 650px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.services-box{
+    width: 27%;
+    margin-left: 20px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 14px;
+    background-color: #EDEBFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    }
+
+.services-box:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transform: scale(1.02);
+    transition: 0.3 s;
+
+}
+
+#box-icon  {
+    font-size: 50px;
+    margin-top: -10px;
+    
+}
+
+.services-box h3 {
+    margin-top: 12px;
+}
+
+.services-box p{
+    margin-bottom: 16px;
+}
+
+.Portfolio{
+    height: 2700px;
+    border-bottom:3px solid #cfe7e8;
+
+}
+
+
+.portfolio-container{
+    display:grid;
+    grid-template-columns: repeat(3, 0.4fr);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;    
+    margin-left: 90px;
+    
+    
+
+
+}
+
+.Portfolio h1{
+    text-align: center;
+    margin-top: 90px;
+}
+.portfolio-box{
+    width: 85%;
+    height: 85;
+    margin-top: 30px;
+
+    padding: 50px 20px 20px 20px;
+    border-radius: 14px;
+    background-color: #EDEBFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    }
+
+
+
+.portfolio-box:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   
+}
+.portfolio-box img{
+    width: 100%;
+    
+}
+
+.portfolio-layer{
+    padding: 50px 20px 10px 20px;
+    border: 1 px solid black;
+}
+
+p{
+    margin-top: 9px;
+}
+
+.Btn-repo{
+    background-color: #059093;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 28px;
+    font-size: 21px;
+    padding: 10px 40px;
+    }
+
+.Btn-repo:hover{
+    background-color: #087072;
+ 
+}
+
+.contact{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1200px;
+    height: 700px;
+    border: none;
+
+}
+
+.contact form{
+    flex-direction: column;
+    
+}
+
+
+.contact form .input-box,
+.contact form textarea,
+.contact form button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 35%;
+
+
+}
+
+
+.contact form .input-box input,
+.contact form  textarea
+{
+    border-radius: 5px;
+    padding: 5px 60px 5px 60px;
+    margin-top: 17px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    background-color: #EDEBFF;
+    height: 60px;
+
+}
+
+.contact form  textarea{
+    height: 160px;
+
+}
+
+.contact form .input-box input{
+    width: 47%;
+}
+
+.Btn-send{
+    border-radius: 5px;
+    padding: 5px 60px 5px 60px;
+    margin-top: 17px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    background-color: #6b7cef;
+    color: white;
+    border: none;
+    font-size: 21px;
+    padding: 10px 40px;
+    width: 405px;
+    height: auto;
+    align-items: center;
+}
+
+footer{
+    height: 200px;
+    margin-top: 295px;
+    background-color: #d5e6fe;
+
+}
+
+
+/*//////////////////////////////////1200////////////////////////////////////////////////////*/
+@media (max-width: 1200px) {
+    html {
+        font-size: 95%;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .homeImg, .sideImg{
+        width: 500px;
+    }
+    .header{
+        padding: 4px 3px 4px 3px;
+    }
+    .section{
+        padding: 3px 4px 3px 4px;
+    }
+    .Designation{
+        font-size: 25px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .Btn-repo i{
+        font-size: 20px;
+        padding: 2px;
+        width: 0px;
+        height: 0px;
+        
+    }
+    .Btn-send, textarea{
+        font-size: 20px;
+        width: 330px;
+    }
+}
+
+
+
+/*/////////////////991///////////////////////////////////////////////////////////////////////*/
+@media (max-width: 991px) {
+    h1{
+        font-size: 29px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    .homeImg, .sideImg{
+        width: 400px;
+    }
+    .header{
+        padding: 3px 2px 3px 2px;
+    }
+    .section{
+        padding: 2px 3px 2px 3px;
+    }
+    .Designation{
+        font-size: 22px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .Btn{
+        font-size: 16px;
+        padding: 9px 15px;
+    }
+    i{
+        font-size: 20px;
+    }
+    .social-media a{
+        width: 40px;
+        height: 40px;
+    }
+    .Btn-repo i{
+        font-size: 15px;
+        padding: 0px;
+        width: 0px;
+        height: 0px;
+        
+    }
+    .Btn-send, textarea{
+        font-size: 18px;
+        width: 300px;
+    }
+}
+
+
+/*/////////////////768///////////////////////////////////////////////////////////////////////*/
+@media (max-width: 768px) {
+    #menu-icon{
+        display: block;
+    }
+
+    h1{
+        font-size: 27px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .homeImg, .sideImg{
+        width: 350px;
+    }
+
+    .home-content .home-img{
+        margin-top: 170px;
+    }
+
+
+    .header{
+        padding: 2px 1px 2px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo{
+        background-color: white;
+    }
+    .navbar {
+        font-size: 15px;
+        width: 100%;
+        
+    }
+
+    .Designation{
+        font-size: 19px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-content{
+        margin-top: 90px;
+    }
+    h3, .Designation{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .social-media a {
+        margin-left: 76px;
+    }
+    .social-media a i {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .home-content button{
+        margin-left: 100px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .about button{
+        margin-left: 60px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .home img, .about img{
+        width: 450px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:170px;
+    }
+    .about img{
+        margin-top: 120px;
+
+    }
+    .services h3{
+        font-size: 23px;
+    }
+    .portfolio-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 40px;
+        height: 100px;
+    }
+    .portfolio-container img{
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio-layer{
+        margin-left: 300px;
+        margin-top: -240px;
+
+
+    }
+
+    .portfolio-box{
+        width: 660px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1400px;
+     }
+     .inputField{
+        width: 500px;
+     }
+     
+    .contactUs{
+        margin-top: 1250px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+.contact form .input-box input
+{
+    width: 400px;
+    margin-left: -150px;
+}
+
+.contact form  textarea,
+.contact form  button{
+    
+    width: 400px;
+    margin-left: -15px;
+}
+
+}
+
+/*////////////////////////////////617////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 662px) {
+    #menu-icon{
+        display: block;
+    }
+    h1{
+        font-size: 4px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+    .homeImg, .sideImg{
+        width: 300px;
+    }
+    .header{
+        padding: 2px 1px 2px 1px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo{
+        background-color: white;
+    }
+    .navbar {
+        font-size: 15px;
+        width: 100%;
+        
+    }
+
+    .Designation{
+        font-size: 19px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-content{
+        margin-top: 90px;
+    }
+    h3, .Designation{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .social-media a {
+        margin-left: 76px;
+    }
+    .social-media a i {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .home-content button{
+        margin-left: 100px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .about button{
+        margin-left: 60px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .home img, .about img{
+        width: 450px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 400px;
+    }
+    .about img{
+        margin-top: 120px;
+
+    }
+    .services h3{
+        font-size: 23px;
+    }
+    .portfolio-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 40px;
+        height: 100px;
+    }
+    .portfolio-container img{
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio-layer{
+        margin-left: 300px;
+        margin-top: -240px;
+
+
+    }
+
+    .portfolio-box{
+        width: 660px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1400px;
+     }
+     .inputField{
+        width: 500px;
+     }
+     
+    .contactUs{
+        margin-top: 1310px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+.contact form .input-box input
+{
+    width: 400px;
+    margin-left: -150px;
+}
+
+.contact form  textarea,
+.contact form  button{
+    
+    width: 400px;
+    margin-left: -15px;
+}
+
+}
+
+
+/*////////////////////////////////617////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 610px) {
+    #menu-icon{
+        display: block;
+    }
+    h1{
+        font-size: 4px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+    .homeImg, .sideImg{
+        width: 300px;
+    }
+    .header{
+        padding: 2px 1px 2px 1px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo{
+        background-color: white;
+    }
+    .navbar {
+        font-size: 15px;
+        width: 100%;
+        
+    }
+
+    .Designation{
+        font-size: 19px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .home-content{
+        margin-top: 90px;
+    }
+    h3, .Designation{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .social-media a {
+        margin-left: 76px;
+    }
+    .social-media a i {
+        font-size: 22px;
+        padding: 10px 30px;
+    }
+    .home-content button{
+        margin-left: 100px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .about button{
+        margin-left: 60px;
+        padding: 20px 90px;
+        border-radius: 9px;
+        font-size: 24px;
+    }
+    .home img, .about img{
+        width: 450px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 400px;
+    }
+    .about img{
+        margin-top: 120px;
+
+    }
+    .services h3{
+        font-size: 23px;
+    }
+    .portfolio-container{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 40px;
+        height: 100px;
+    }
+    .portfolio-container img{
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .portfolio-layer{
+        margin-left: 300px;
+        margin-top: -240px;
+
+
+    }
+
+    .portfolio-box{
+        width: 660px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1400px;
+     }
+     .inputField{
+        width: 500px;
+     }
+     
+    .contactUs{
+        margin-top: 1690px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+.contact form .input-box input
+{
+    width: 400px;
+    margin-left: -150px;
+}
+
+.contact form  textarea,
+.contact form  button{
+    
+    width: 400px;
+    margin-left: -15px;
+}
+
+}
+
+/*//////////////////////////////////////////450///////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width:450px) {
+    body i {
+        color: #EBE76C;
+        font-weight: bolder;
+    }
+
+    .logo{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .navbar a{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .header{
+        background-color: #010008;
+        opacity: 0.95;
+        height: 90px;
+
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    
+    h3{
+       font-size: 24px;
+
+    }
+
+    .Designation{
+        font-size: 22px;
+
+    }
+
+    p{
+        font-size: 12px;
+        color: #087072;
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin-left: -50px;
+        
+    }
+
+    .social-media a{
+        font-size: 7px;
+        background-color: #e440fd;
+    }
+
+    .home-content button{
+        margin-left: 35%;
+        font-weight: bolder;
+    }
+
+    .home-content button,
+    .home-content i
+    {
+        font-size: 15px;
+        padding: 6px 12px 6px 12px;
+        text-align: center;
+    }
+
+    .home-img .sideImg{
+        width: 300px;
+        margin-top: -100px;
+    }
+
+
+    .about-Content button
+    {
+        font-size: 15px;
+        padding: 6px 12px 10px 12px;
+        text-align: center;
+        margin-left: 35%;
+        font-weight: bolder;
+    }
+
+    .about{
+        margin-top: 220px;
+    }
+
+    .services-container{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .services .serviceBox1, 
+    .services .serviceBox2,
+    .services .serviceBox3  
+    {
+        width: 40%;
+        margin-left: 40px;
+    }
+
+    
+    .services .serviceBox3 {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    
+    .services .serviceBox3 button {
+        width: 100%;
+    }
+    
+
+    .Portfolio .portfolio-box {
+        height: 320px;
+    }
+
+    .portfolio-layer {
+        width: 50%;
+        margin-left: -20px;
+        margin-left: 190px;
+    }
+    .portfolio-layer h3 {
+        margin-top: -55px;
+        font-size: 25px;
+        margin-left: -210px;  
+        
+    }
+
+    .portfolio-box img {
+        width: 185px;
+    }
+
+    
+    .portfolio-box button {
+        padding: 8px 29px;
+        border-radius: 8px;
+    }
+
+    .contact {
+        margin-top: 400px;
+        margin-left: 45px;
+        width: 90%;
+    }
+
+
+
+    
+}
+
